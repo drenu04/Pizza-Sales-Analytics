@@ -1,4 +1,4 @@
-#  Pizza Sales Analytics Report
+#  Pizza Sales Analytics
 
 ##  Problem Statement
 Pizza restaurants generate large amounts of transactional data every day — from orders, categories, and sizes to total revenue.  
