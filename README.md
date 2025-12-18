@@ -13,7 +13,7 @@ The goal is to analyze sales trends and uncover insights that can help improve m
 - Connect MySQL database to Power BI and Excel for real-time updates  
 
 ##  Tech Stack & Tools
-- **MySQL Workbench** – Data storage, cleaning, and transformation  
+- **MySQL Workbench** – Star schema modeling, Data storage, cleaning, and transformation  
 - **Excel Dashboard** – Visual summary and KPI metrics  
 - **Python (Google Colab)** – EDA, data wrangling, visualization  
   - Libraries: `Pandas`, `NumPy`, `Matplotlib`, `Seaborn`, `Plotly`
@@ -28,6 +28,13 @@ The goal is to analyze sales trends and uncover insights that can help improve m
 5. **Dashboard Design:** Built interactive Power BI and Excel dashboards  
 6. **Insights Generation:** Interpreted visuals to derive actionable findings  
 
+## Data Modeling (Star Schema)
+
+The raw transactional data was redesigned into a **Star Schema** to improve query performance and support BI reporting.
+
+<img src="https://github.com/drenu04/Pizza-Sales-Analytics/blob/d3209d50b570cacd8b5fa260acadeb6ab9c40496/star%20schema.png" width="650"/>
+
+---
 
 ## Important Charts
 1. **Weekly Sales Trend** – Line chart showing how pizza orders vary week to week
